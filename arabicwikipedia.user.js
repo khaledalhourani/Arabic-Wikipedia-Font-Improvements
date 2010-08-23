@@ -20,10 +20,10 @@ styleIt('p');
 styleIt('ul');
 
 function styleIt(tag) {
-	var element = body.getElementsByTagName(tag);
+  var element = body.getElementsByTagName(tag);
 
-	for (var i = 0; i < element.length; i++) {
-		element[i].style.fontFamily = 'Tahoma, arial, sans serif';
-		element[i].style.lineHeight = '1.7em';
-	}
+  for (var i = 0; i < element.length; i++) {
+    element[i].style.fontFamily = 'Tahoma, arial, sans serif';
+    element[i].style.lineHeight = '1.7em';
+  }
 }
